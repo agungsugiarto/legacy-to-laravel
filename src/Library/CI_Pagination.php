@@ -58,8 +58,6 @@ class CI_Pagination
      * Initialize Preferences.
      *
      * @param array $params Initialization parameters
-     *
-     * @return CI_Pagination
      */
     public function initialize(array $params = []): self
     {

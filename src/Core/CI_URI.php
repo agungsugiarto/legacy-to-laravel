@@ -19,7 +19,7 @@ use Illuminate\Http\Request;
 
 class CI_URI
 {
-    /** @var \Illuminate\Http\Request */
+    /** @var Request */
     protected $request;
 
     public function __construct()

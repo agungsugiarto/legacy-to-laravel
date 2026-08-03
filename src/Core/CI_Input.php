@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Cookie;
 
 class CI_Input
 {
-    /** @var \Illuminate\Http\Request */
+    /** @var Request */
     protected $request;
 
     public function __construct()

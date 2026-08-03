@@ -71,9 +71,8 @@ class CI_Form_validation
      * rules as input, any custom error messages, validates the info,
      * and stores it
      *
-     * @param mixed  $field
-     * @param string $label
-     * @param mixed  $rules
+     * @param mixed $field
+     * @param mixed $rules
      */
     public function set_rules(
         $field,
@@ -153,8 +152,6 @@ class CI_Form_validation
     /**
      * CI4 method
      * Sets the error for a specific field. Used by custom validation methods.
-     *
-     * @return CI_Form_validation
      */
     public function setError(string $field, string $error): self
     {
@@ -167,9 +164,6 @@ class CI_Form_validation
      * Run the Validator.
      *
      * This function does all the work.
-     *
-     * @param string $config
-     * @param array  $data
      */
     public function run(?string $config = null, ?array &$data = null): bool
     {
@@ -196,8 +190,6 @@ class CI_Form_validation
      *
      * Prevents subsequent validation routines from being affected by the
      * results of any previous validation routine due to the CI singleton.
-     *
-     * @return CI_Form_validation
      */
     public function reset_validation(): self
     {

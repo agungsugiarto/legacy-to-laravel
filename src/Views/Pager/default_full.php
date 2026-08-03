@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @var \CodeIgniter\Pager\PagerRenderer $pager
+ * @var CodeIgniter\Pager\PagerRenderer $pager
  */
 $surroundCount = 2;
 $pager->setSurroundCount($surroundCount);

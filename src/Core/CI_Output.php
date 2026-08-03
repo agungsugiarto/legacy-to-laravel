@@ -21,7 +21,7 @@ use Illuminate\Http\Response;
 class CI_Output
 {
     /**
-     * @var \Illuminate\Http\Response
+     * @var Response
      */
     protected $response;
 
@@ -39,8 +39,6 @@ class CI_Output
      *
      * @param string $header  Header
      * @param bool   $replace Whether to replace the old header value, if already set
-     *
-     * @return CI_Output
      *
      * @todo    We need to figure out how to permit headers to be cached.
      */
@@ -132,8 +130,6 @@ class CI_Output
 
     /**
      * Enable/disable Profiler.
-     *
-     * @return CI_Output
      */
     public function enable_profiler(): self
     {

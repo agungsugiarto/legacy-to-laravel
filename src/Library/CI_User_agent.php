@@ -38,8 +38,6 @@ class CI_User_agent
 
     /**
      * Is Mobile.
-     *
-     * @param string $key
      */
     public function is_mobile(?string $key = null): bool
     {

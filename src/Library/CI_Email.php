@@ -78,8 +78,6 @@ class CI_Email
 
     /**
      * Initialize preferences.
-     *
-     * @return CI_Email
      */
     public function initialize(array $config = []): self
     {
@@ -108,8 +106,6 @@ class CI_Email
      * Set FROM.
      *
      * @param string $return_path = NULL Return-Path
-     *
-     * @return CI_Email
      */
     public function from(
         string $from,
@@ -125,8 +121,6 @@ class CI_Email
      * Set Recipients.
      *
      * @param   array|string
-     *
-     * @return CI_Email
      */
     public function to($to): self
     {
@@ -140,8 +134,6 @@ class CI_Email
      *
      * @param   string
      * @param   string
-     *
-     * @return CI_Email
      */
     public function bcc($bcc, $limit = ''): self
     {
@@ -154,8 +146,6 @@ class CI_Email
      * Set Email Subject.
      *
      * @param   string
-     *
-     * @return CI_Email
      */
     public function subject(string $subject): self
     {
@@ -168,8 +158,6 @@ class CI_Email
      * Set Body.
      *
      * @param   string
-     *
-     * @return CI_Email
      */
     public function message(string $body): self
     {

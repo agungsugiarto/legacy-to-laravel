@@ -22,8 +22,7 @@ if (! function_exists('base_url_')) {
     /**
      * Return the base URL without rtrim('/').
      *
-     * @param mixed  $uri      URI string or array of URI segments
-     * @param string $protocol
+     * @param mixed $uri URI string or array of URI segments
      */
     function base_url_($uri = '', ?string $protocol = null): string
     {

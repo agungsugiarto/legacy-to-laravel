@@ -37,6 +37,7 @@ namespace Fluent\Legacy\Database;
  *
  * @see	https://codeigniter.com
  * @since	Version 2.1.0
+ *
  * @filesource
  */
 

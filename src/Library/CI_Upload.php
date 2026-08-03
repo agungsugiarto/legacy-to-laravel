@@ -123,8 +123,6 @@ class CI_Upload
      * Returns an associative array containing all of the information
      * related to the upload, allowing the developer easy access in one array.
      *
-     * @param string $index
-     *
      * @return mixed
      */
     public function data(?string $index = null)
